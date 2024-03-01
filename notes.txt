@@ -1,0 +1,52 @@
+        <div class="video-layout">
+            <div class="video">
+                <div id="vid-left">
+                    <!-- <div class="iframe-container"> -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/IJMvIcP-5ZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- </div> -->
+                </div>
+                <div class="vid-mid">
+                    <!-- <div class="iframe-container"> -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VA4yJIUlDSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- </div> -->
+                </div>
+                <div class="vid-right">
+                    <!-- <div class="iframe-container"> -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/vQuu050CFpM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+
+
+
+        .video {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+.video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.video-layout {
+    max-width: 500px;
+    border: 1px solid green;
+}
+#vid-left {
+    margin-left: 25px;
+    float: left;
+}
+#vid-mid {
+
+}
+#vid-right {
+    float: right;
+}
+
+index.html
+
+
+
+css
+

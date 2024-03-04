@@ -349,9 +349,8 @@
         font-size: 2rem;
     }
 
-    .main__content p {
-        margin-top: 2rem;
-        font-size: 1.5rem;
+    .main__content h3 {
+        font-size: 2rem;
     }
 
     .main__btn {
